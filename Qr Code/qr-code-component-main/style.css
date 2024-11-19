@@ -1,0 +1,50 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body{
+    background-color: hsl(212, 45%, 89%);
+    font-family: "Outfit regular";
+}
+
+header{
+    text-align: center;
+    color: hsl(212, 45%, 30%);
+}
+
+.qr-code{
+    width: 320px;
+    height: 499px;
+    margin: 0 auto;
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 20px;
+}
+
+.qr-code-title{
+    font-family: "Outfit bold";
+    font-weight: 700;
+    font-size: 22px;
+    margin-top: 24px;
+}
+
+.qr-code-description{
+    margin-top: 16px;
+    color: #D5E1EF;
+    font-size: 15px;
+}
+
+.qr-body{
+    padding:16px;
+}
+
+.qr-img{
+    width: 288px;
+    height: 288px;
+    border-radius: 10px;
+}
+
+footer{
+    margin-top: 24px;
+}
